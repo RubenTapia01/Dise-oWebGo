@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        
+      
+    
+    <title>Encuesta Cinematrografica</title></caption>
+    
+        
+         
+    
+
+</head>
+<body>
+    
+</body>
+</html>
+
+<body>
+    <div id="Contenedor"> <img src="icono/favicon.ico"  style="height: 70px"; align=left> 
+        <h2>Encuestra de cine: Nominadas al Oscar 2018</h2>
+        <img src="icono/favicon.ico" style="height: 70px"; align=right; >      
+        <form id="formulario1" name ="formulario1" method="post" action="Formulario.html">
+   <fieldset id="datos_personales">
+       <legend>Datos Personales </legend>
+       <label for="nombre">Nombre</label><br>
+       <input type="text" name="nombre" id="nombre"><br>
+       <label for="dni">DNI</label><br>
+       <input type="text" name="dni" id="dni" maxlength="9"><br>
+    <label for="edad">Edad</label><br>
+    <input type="text" name="edad" id ="edad" size="2" maxlength="2"><br>
+    <select name="genero" >
+        <option>Masculino</option>
+        <option>Femenino</option>
+    </select>
+    <input type="submit" value="Enviar Información">
+    </fieldset>
+    <fieldset id="mejor_pelicula">
+        <legend> Mejor Pelicula </legend>
+        <input type="radio" name="pelicula" value="11">Call Me By your Name <br>
+        <input type="radio" name="pelicula" value="22"> Dunkerque <br>
+        <input type="radio" name ="pelicula" value="33">Dejame salir <br>
+        <input type="submit" value="Enviar Informacion">
+    </fieldset>
+    <fieldset id="Selecciona_la_pelicula_que_no_hayas_visto">
+        <legend> Selecciona la pelicula que no hayas visto </legend>
+        
+        <input type="checkbox" name="pelicula" value="11">Call Me By your Name <br>
+        <input type="checkbox" name="pelicula" value="22"> Dunkerque <br>
+        <input type="checkbox" name ="pelicula" value="33">Dejame salir <br>
+        <input type="checkbox" name ="pelicula" value="33">El mas allá <br>
+        <input type="checkbox" name ="pelicula" value="33">La vida en mi<br>
+      <input type="submit" value="Enviar Informacion">
+    
+    </fieldset>
+
+
+    <fieldset id="grupo_argumento">
+        <legend>Argumento de tu pelicula preferida</legend>
+        <textarea  id="argumento" name="argumento" rows="14" cols="50"></textarea>
+
+    </fieldset>
+    <br>
+    <input type="reset" value="Borrar Formulario"><input type="submit" value="Enviar">
+</form>
+    </div>
+</body>
