@@ -1,0 +1,33 @@
+.grid{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas: "head head" "menu contenido" " foot foot"; 
+
+
+}
+.a{
+    grid-area: head;
+    background-color: blue;
+}
+.b{
+    grid-area: menu;
+    background-color: red;
+    
+}
+.c{
+    grid-area: contenido;
+    background-color:green;
+}
+.d{
+    grid-area: foot;
+    background-color:orange;
+}
+.a
+.b
+.c
+.d{
+    
+    border: 2px solid black
+}
+

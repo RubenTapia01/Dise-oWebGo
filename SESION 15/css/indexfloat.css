@@ -1,0 +1,64 @@
+.grid {
+    margin: 0px auto;
+    max-width: 1000px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 200px 1fr 100px;
+    grid-template-areas: "my-header my-header my-header" "my-nav my-section my-aside" "my-footer my-footer my-footer";
+}
+
+header {
+    grid-area: my-header;
+    background-color: blueviolet;
+}
+
+nav {
+    grid-area: my-nav;
+    background-color: cornflowerblue;
+}
+
+section {
+    grid-area: my-section;
+    background-color: indigo;
+}
+
+aside {
+    grid-area: my-aside;
+    background-color: darkmagenta;
+}
+
+footer {
+    grid-area: my-footer;
+    background-color: darkorchid;
+}
+
+
+/*
+
+ .a{
+    background-color: blueviolet;
+    height: 150px;
+}
+.b{
+    background-color: cornflowerblue;
+    width: 25%;
+}
+.c{
+    background-color: indigo;
+    width: 50%;
+}
+.d{
+    background-color: darkmagenta;
+    width: 25%;
+}
+.e{
+    background-color: darkorchid;
+    height: 100px;
+    clear: left;
+}
+
+.b,.c,.d{
+    float: left;
+    height: 350px;
+}
