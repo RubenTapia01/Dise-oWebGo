@@ -1,0 +1,138 @@
+#caja1{
+    float: left;
+    height: 150px;
+}
+header{
+    background-color:rgb(114, 239, 224);
+    height: 200px;
+  
+}
+
+nav{
+    position: center;
+    background-color: black;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    height: 40px;  
+
+}
+
+input{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 250px;
+}
+
+#nav2{
+    position: center;
+    background-color: white;
+    font-family: 'Segoe UI';
+    font-size: medium;
+    height: 50px; 
+     
+
+}
+
+#bot{
+    background-color: white;
+    border-color: white;
+    color: black;
+    height: 40px;
+    width: 100px;
+    
+}
+
+
+h1{
+    margin: auto;
+    font-family: 'Segoe UI';
+    height: auto;
+}
+
+
+h2{
+    font-family: 'Segoe UI';
+    font-size: 25px;
+    
+}
+
+#inicio{
+    float: right;
+    height: auto;
+    width: auto;
+    background-color: rgb(114, 239, 224);
+    color: black;
+    font-family:'Segoe UI';
+    font-size: 15px;
+    
+}
+
+#caja2{
+    float:right;
+    background-color: rgb(114, 239, 224);
+    width: 250px;
+    height: auto;
+    font-family: calibri;  
+}
+
+#caja3{
+    background-color: rgba(4, 173, 173, 0.767);
+    width: 200px;
+    height: 175px;
+    font-family: calibri;  
+    text-align:justify;
+}
+
+#caja4{
+    background-color: rgba(4, 173, 173, 0.767);
+    width: 200px;
+    height: 175px;
+    font-family: calibri;  
+    text-align:justify;
+}
+
+
+
+#caja5{
+    float: left;
+    width: 1425px; 
+    background-color: black;
+    color: white;
+
+}
+
+.Footer{
+    float: left;
+    font-family: calibri;     
+    background-color: rgb(114, 239, 224);
+    width: 1425px;    
+    
+}
+
+section{
+    float: left;
+}
+
+#titulo {
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+
+
+img{
+    float: right;  
+    height: 175px;
+}
+
+#caja6 {
+    background-color: rgb(255, 72, 0);
+    font-size: 40px;
+}
+
+#caja7 {
+    background-color: rgb(255, 72, 0);
+    font-size: 20px;
+}
+

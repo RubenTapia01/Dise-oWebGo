@@ -1,0 +1,113 @@
+#caja1{
+    float: left;
+    height: 150px;
+}
+header{
+    background-color:rgb(114, 239, 224);
+    height: 200px;
+  
+}
+
+#inicio{
+    float: right;
+    height: auto;
+    width: auto;
+    background-color: rgb(114, 239, 224);
+    color: black;
+    font-family:'Segoe UI';
+    font-size: 15px;
+    
+}
+
+h1{
+    margin: auto;
+    font-family: 'Segoe UI';
+    height: auto;
+}
+
+
+h2{
+    font-family: 'Segoe UI';
+    font-size: 25px;
+    
+}
+h3{
+    font-family: calibri;
+    font-size: 25px;  
+}
+
+nav{
+    position: center;
+    background-color: black;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    height: 40px;  
+
+}
+
+input{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 250px;
+}
+
+
+.grid {
+    float: right;
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-template-rows: 1fr;
+    mask-position: center;
+}
+    
+#caja2{
+    float:right;
+    background-color: rgb(114, 239, 224);
+    width: 250px;
+    height: auto;
+    font-family: calibri;  
+}
+
+#caja3{
+    
+    
+    background-color: rgba(4, 173, 173, 0.767);
+    width: 200px;
+    height: 175px;
+    font-family: calibri;  
+    text-align:justify;
+}
+
+#caja4{
+    float:top;
+    background-color: rgba(4, 173, 173, 0.767);
+    width: 200px;
+    height: 175px;
+    font-family: calibri;  
+    text-align:justify;
+}
+
+#caja5{
+    float: left;
+    width: 1425px; 
+    background-color: black;
+    color: white;
+
+
+}
+
+.Footer{
+    float: left;
+    font-family: calibri;     
+    background-color: rgb(114, 239, 224);
+    width: 1425px; 
+}
+.img{
+    float: left;
+}
+
+
+section{
+    float: left;
+}

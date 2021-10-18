@@ -1,0 +1,26 @@
+#caja1{
+    height: 100px;
+    }
+    #caja2{
+    width: 500px;
+    height: 200px;
+    float: right;
+    }
+    #caja3{
+    background-color:cadetblue;
+    }
+    #caja4{
+    background-color: yellow;
+    width: 200px;
+    float: right;
+    }
+    #caja1{
+        float: left;
+        height: 150px;
+    }
+    header{
+        background-color:rgb(114, 239, 224);
+        height: 200px;
+      
+    }
+    
