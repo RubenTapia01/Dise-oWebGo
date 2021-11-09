@@ -26,3 +26,11 @@ ul{
     margin: 0px;
     padding-left: 0px;
 }
+.titu{
+    width: 350px;
+    background-color: #0df39b;
+}
+#aviso{
+    background-color: pink;
+    width: 500px;
+}

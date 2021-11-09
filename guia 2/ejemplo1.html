@@ -1,0 +1,23 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Quick Start Template</title>
+  <!-- AniCollection.css library -->
+  <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css" />
+  <link rel="stylesheet" href="css/ejemplo1.css" />
+</head>
+
+<body>
+  <header data-anijs="if: click, do: flipInY animated">
+    <h1>Header(Click aquí)</h1>
+  </header>
+  <div data-anijs="if: mouseover, do: swing animated">Main (MouseOver)</div>
+  <footer data-anijs="if:click, do: hinge animated, to: #main">
+    <p>Footer(Click aquí)</p>
+  </footer>
+  <!-- AniJS core library -->
+  <script src="https://anijs.github.io/lib/anijs/anijs-min.js"></script>
+</body>
+
+</html>

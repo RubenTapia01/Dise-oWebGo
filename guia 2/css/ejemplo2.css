@@ -1,0 +1,48 @@
+body {
+    margin: 80px auto;
+    width: 600px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background: black;
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .orange {
+    background: orange;
+  }
+  
+  .pink {
+    background: pink;
+  }
+  
+  .red {
+    background: red;
+  }
+  
+  .purple {
+    background: purple;
+  }
+  
+  .black {
+    background: black;
+  }
+  
+  .green {
+    background: green;
+  }
+  
+  .yellow {
+    background: yellow;
+  }
+  
+  .brown {
+    background: brown;
+  }

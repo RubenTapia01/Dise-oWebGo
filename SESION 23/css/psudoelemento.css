@@ -1,0 +1,38 @@
+/*PseudoElementos*/
+
+p::first-letter{
+    font-size: 2rem;
+}
+
+.seudoEle{
+    border: 2px solid black;
+    width: 10px;
+    text-align: center;
+}
+
+.seudoEle::before{
+    content: 'hola';
+    background-color: red;
+}
+
+.seudoEle:after{
+    content: 'hola';
+    background-color: red;
+}
+.seudoEle::after{
+    content: 'Peru';
+    background-color: red;
+}
+
+/*Pseudoclases*/
+
+div:hover{
+    background-color: yellow;
+}
+a:focus{
+    color: green;
+
+}
+a:active{
+    color: red;
+}

@@ -1,0 +1,28 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  background-color: #ee7655;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+div {
+  height: 550px;
+  width: 100%;
+  background: #81b5dd;
+  color: white;
+  font-size: 28px;
+}
+
+footer {
+  margin-top: 10px;
+  height: 40px;
+  background-color: #63bbbd;
+  color: white;
+  font-size: 22px;
+}

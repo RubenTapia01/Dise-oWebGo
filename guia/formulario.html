@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta Oscar 2021</title>
+    <link rel="stylesheet" href="css/light.css" class="theme">
+</head>
+<body>
+    <div id="div-modo"> 
+        <h5>Modo</h5>
+        <!-- <select name="sdark" id="sdark">
+            <option value="c">Claro</option>
+            <option value="o">Oscuro</option>
+        </select> -->
+        <label class="switch">
+            <input type="checkbox" class="checkbox">
+            <span class="slider round"></span>
+        </label>
+    </div>
+    <div id="contenedor">
+        <h2>
+            <span><img class="oscar" src="img/oscar.png" alt="El Oscar"></span>
+            Encuesta de cine: Nominadas al Oscar 2021
+            <span><img class="oscar" src="img/oscar.png" alt="El Oscar"></span>  
+        </h2>
+
+        <form id="formulario1" name="formulario1" method="post" action="data.php">
+            <fieldset id="datos_personales">
+                <legend>Datos personales</legend>
+                <label for="nombre">Nombre</label><br>
+                <input type="text" name="nombre" id="nombre" size="20"><br>
+                
+                <label for="apellido">Apellido</label><br>
+                <input type="text" name="apellido" id="apellido" size="20"><br>
+                
+                <label for="dni">DNI</label><br>
+                <input type="text" name="dni" id="dni" maxlength="9" size="10"><br>
+                
+                <label for="edad">Edad</label><br>
+                <input type="text" name="edad" id="edad" maxlength="2" size="10"><br>
+
+                <label for="sexo">Sexo</label><br>
+                <select name="Sexo" id="sexo">
+                        <option value="0"></option>
+                        <option value="1">Masculino</option>
+                        <option value="2">Femenino</option>
+                </select>
+            </fieldset>
+
+            <fieldset id="mejor_película">
+                <legend>Mejor película</legend>
+                <input type="radio" name="película1" value="11"> 1917 <br>
+                <input type="radio" name="película2" value="22"> Parasite<br>
+                <input type="radio" name="película3" value="33"> Ford v Ferrari<br>
+            </fieldset>
+
+            <fieldset id="peliculas_no_vistas">
+                <legend>Selecciona las películas que no hayas visto</legend>
+                <input type="checkbox" name="pelicula01">Jojo Rabbit <br>
+                <input type="checkbox" name="pelicula02">Había una vez en Hollywood<br>
+                <input type="checkbox" name="pelicula03">Joker<br>
+                <input type="checkbox" name="pelicula04">El juicio de los 7 de Chicago<br>
+                <input type="checkbox" name="pelicula05">Nomadland<br>
+                <input type="checkbox" name="pelicula06">Judas y el mesías negro<br>
+            </fieldset>
+
+            <fieldset id="grupo_argumento">
+                <legend>Argumento de tu película preferida</legend>
+                <textarea name="argumento" id="argumentos" cols="83" rows="10"></textarea>
+            </fieldset>
+            
+            <br>
+            <input type="reset" class="btn_borrar" value="Borrar Formulario"> <input type="submit" class="btn_enviar" value="Enviar">
+        </form>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/misprogramas.js"></script>
+</body>
+</html>
