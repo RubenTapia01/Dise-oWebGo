@@ -1,0 +1,103 @@
+#contenedor{
+    width: 560px;
+    margin: auto;
+    background-color:skyblue;
+    padding-left: 10px;
+    font-family:cursive;
+}
+
+span{
+    width: 180px;
+    display: block;
+    float: left;
+    padding-left: 4px;
+    background-color: chartreuse;
+}
+.nom{
+    background-color: darkgray;
+
+}
+
+.titu{
+    background-color: #0df39b;
+}
+
+li{
+    list-style: none;
+    margin-top: 1px;
+
+}
+ul{
+    margin: 0px;
+    padding-left: 0px;
+}
+p{
+    animation-duration: 10s;
+   animation-name: slidein;
+   animation-iteration-count:initial;
+   animation-direction: alternate;
+   background-color: lawngreen;
+}
+
+
+@keyframes slidein{
+    from {
+margin-left: 100%;
+width: 300%;
+
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+
+    }
+}
+html {
+	font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+	background-color: #9AD1ED;
+}
+
+.container {
+	max-width: 450px;
+	height: auto;
+	background-color: #EFEFEF;
+	margin: 5% auto;
+	padding-bottom: 1rem;
+	
+}
+
+
+h2 span {
+	color: #F39B53;
+}
+
+.form__reg {
+	padding: 0 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.btn__form {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1rem;
+}
+
+
+
+.input:focus {
+	border-bottom: solid #F39B53 .2rem;
+}
+
+
+
+button {
+	background-color: #EDA135;
+}
+
+

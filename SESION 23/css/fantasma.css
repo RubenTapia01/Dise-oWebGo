@@ -10,6 +10,10 @@ div{
     animation-iteration-count: infinite;
 
 }
+body{
+    background: rgb(34,193,195);
+    background: linear-gradient(135deg, rgba(34,193,195,1) 23%, rgba(253,247,45,1) 100%); 
+  }
 @keyframes animar{
     0%{
         left:0;
@@ -29,12 +33,56 @@ div{
 
     }
     60%{
-        left:0rem;
+        left:5rem;
         top:5rem;
-        color:blueviolet;
+        color:rgb(118, 73, 160);
         }
         100%{
-            left:0;
-            top:0;
+            left: 0px;
+            top:0px;
+           
         }
-}
+
+
+        0% {
+            left: -20%;
+          }
+          100% {
+            left: 100%;
+          }
+       50%{
+       transform: rotate(60deg);
+      
+    }
+    60%{
+        transform: rotate(-30deg);
+       
+     }
+     
+     50% {
+        background: hotpink;
+      }
+    }
+    p{
+        animation-duration: 3s;
+       animation-name: slidein;
+       animation-iteration-count: infinite;
+       animation-direction: alternate;
+    
+    }
+    @keyframes slidein{
+        from {
+    margin-left: 100%;
+    width: 300%;
+    
+        }
+        to{
+            margin-left: 0%;
+            width: 100%;
+    
+        }
+    }
+  
+
+     
+     
